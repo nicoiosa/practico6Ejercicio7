@@ -1,8 +1,13 @@
 import "./App.css";
-import Bootstrap from "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import List from "./components/List";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <List />
+    </>
+  );
 }
 
 export default App;
